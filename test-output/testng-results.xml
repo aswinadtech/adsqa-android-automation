@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="8" total="41" passed="33">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27891" started-at="2022-05-19T04:10:01Z" finished-at="2022-05-19T04:10:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27891" started-at="2022-05-19T04:10:01Z" finished-at="2022-05-19T04:10:29Z">
+      <class name="twc.Automation.ExecutableTestCases.smokeTestCases">
+        <test-method status="PASS" signature="Validate_Marquee_cnd_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Marquee_cnd_Custom_param" duration-ms="2378" started-at="2022-05-19T09:40:01Z" finished-at="2022-05-19T09:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_cnd_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_cnd_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Feed1_cnd_Custom_param" duration-ms="728" started-at="2022-05-19T09:40:04Z" finished-at="2022-05-19T09:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_cnd_Custom_param -->
+        <test-method status="FAIL" signature="Validate_HourlyDetails_cnd_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_HourlyDetails_cnd_Custom_param" duration-ms="528" started-at="2022-05-19T09:40:04Z" finished-at="2022-05-19T09:40:05Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Custom Parameter :cnd value: nl is not matched with the expected value: sun]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Custom Parameter :cnd value: nl is not matched with the expected value: sun
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Automation.General.Utils.validate_custom_param_val_of_gampad(Utils.java:4153)
+	at twc.Automation.ExecutableTestCases.smokeTestCases.Validate_HourlyDetails_cnd_Custom_param(smokeTestCases.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_cnd_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_dma_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Marquee_dma_Custom_param" duration-ms="519" started-at="2022-05-19T09:40:05Z" finished-at="2022-05-19T09:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_dma_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_dma_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Feed1_dma_Custom_param" duration-ms="475" started-at="2022-05-19T09:40:05Z" finished-at="2022-05-19T09:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_dma_Custom_param -->
+        <test-method status="FAIL" signature="Validate_Feed1_ct_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Feed1_ct_Custom_param" duration-ms="667" started-at="2022-05-19T09:40:06Z" finished-at="2022-05-19T09:40:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Custom Parameter :ct value: Cave%2520Spring is not matched with the expected value: Cave Spring]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Custom Parameter :ct value: Cave%2520Spring is not matched with the expected value: Cave Spring
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Automation.General.Utils.validate_custom_param_val_of_gampad(Utils.java:4153)
+	at twc.Automation.ExecutableTestCases.smokeTestCases.Validate_Feed1_ct_Custom_param(smokeTestCases.java:241)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_ct_Custom_param -->
+        <test-method status="PASS" signature="Validate_HourlyDetails_dma_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_HourlyDetails_dma_Custom_param" duration-ms="370" started-at="2022-05-19T09:40:06Z" finished-at="2022-05-19T09:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_dma_Custom_param -->
+        <test-method status="FAIL" signature="Validate_HourlyDetails_ct_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_HourlyDetails_ct_Custom_param" duration-ms="432" started-at="2022-05-19T09:40:07Z" finished-at="2022-05-19T09:40:07Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Custom Parameter :ct value: Cave%2520Spring is not matched with the expected value: Cave Spring]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Custom Parameter :ct value: Cave%2520Spring is not matched with the expected value: Cave Spring
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Automation.General.Utils.validate_custom_param_val_of_gampad(Utils.java:4153)
+	at twc.Automation.ExecutableTestCases.smokeTestCases.Validate_HourlyDetails_ct_Custom_param(smokeTestCases.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_ct_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_tmpc_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Marquee_tmpc_Custom_param" duration-ms="3" started-at="2022-05-19T09:40:07Z" finished-at="2022-05-19T09:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_tmpc_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_tmpc_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Feed1_tmpc_Custom_param" duration-ms="3" started-at="2022-05-19T09:40:07Z" finished-at="2022-05-19T09:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_tmpc_Custom_param -->
+        <test-method status="PASS" signature="Validate_HourlyDetails_tmpc_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_HourlyDetails_tmpc_Custom_param" duration-ms="3" started-at="2022-05-19T09:40:07Z" finished-at="2022-05-19T09:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_tmpc_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_locale_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Marquee_locale_Custom_param" duration-ms="442" started-at="2022-05-19T09:40:07Z" finished-at="2022-05-19T09:40:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_locale_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_locale_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Feed1_locale_Custom_param" duration-ms="351" started-at="2022-05-19T09:40:08Z" finished-at="2022-05-19T09:40:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_locale_Custom_param -->
+        <test-method status="FAIL" signature="Validate_Marquee_ct_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Marquee_ct_Custom_param" duration-ms="362" started-at="2022-05-19T09:40:08Z" finished-at="2022-05-19T09:40:08Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Custom Parameter :ct value: Cave%2520Spring is not matched with the expected value: Cave Spring]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Custom Parameter :ct value: Cave%2520Spring is not matched with the expected value: Cave Spring
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Automation.General.Utils.validate_custom_param_val_of_gampad(Utils.java:4153)
+	at twc.Automation.ExecutableTestCases.smokeTestCases.Validate_Marquee_ct_Custom_param(smokeTestCases.java:228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_ct_Custom_param -->
+        <test-method status="PASS" signature="Validate_HourlyDetails_locale_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_HourlyDetails_locale_Custom_param" duration-ms="535" started-at="2022-05-19T09:40:08Z" finished-at="2022-05-19T09:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_locale_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_zip_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Marquee_zip_Custom_param" duration-ms="393" started-at="2022-05-19T09:40:09Z" finished-at="2022-05-19T09:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_zip_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_zip_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Feed1_zip_Custom_param" duration-ms="479" started-at="2022-05-19T09:40:09Z" finished-at="2022-05-19T09:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_zip_Custom_param -->
+        <test-method status="PASS" signature="Validate_HourlyDetails_zip_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_HourlyDetails_zip_Custom_param" duration-ms="362" started-at="2022-05-19T09:40:10Z" finished-at="2022-05-19T09:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_zip_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_tmp_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Marquee_tmp_Custom_param" duration-ms="430" started-at="2022-05-19T09:40:10Z" finished-at="2022-05-19T09:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_tmp_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_tmp_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Feed1_tmp_Custom_param" duration-ms="362" started-at="2022-05-19T09:40:11Z" finished-at="2022-05-19T09:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_tmp_Custom_param -->
+        <test-method status="FAIL" signature="Validate_HourlyDetails_tmp_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_HourlyDetails_tmp_Custom_param" duration-ms="402" started-at="2022-05-19T09:40:11Z" finished-at="2022-05-19T09:40:11Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Custom Parameter :tmp value: nl is not matched with the expected value: 80h]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Custom Parameter :tmp value: nl is not matched with the expected value: 80h
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Automation.General.Utils.validate_custom_param_val_of_gampad(Utils.java:4153)
+	at twc.Automation.ExecutableTestCases.smokeTestCases.Validate_HourlyDetails_tmp_Custom_param(smokeTestCases.java:375)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_tmp_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_tmpr_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Marquee_tmpr_Custom_param" duration-ms="366" started-at="2022-05-19T09:40:11Z" finished-at="2022-05-19T09:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_tmpr_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_tmpr_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Feed1_tmpr_Custom_param" duration-ms="394" started-at="2022-05-19T09:40:12Z" finished-at="2022-05-19T09:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_tmpr_Custom_param -->
+        <test-method status="FAIL" signature="Validate_HourlyDetails_tmpr_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_HourlyDetails_tmpr_Custom_param" duration-ms="391" started-at="2022-05-19T09:40:12Z" finished-at="2022-05-19T09:40:13Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Custom Parameter :tmpr value: nl is not matched with the expected value: warm]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Custom Parameter :tmpr value: nl is not matched with the expected value: warm
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Automation.General.Utils.validate_custom_param_val_of_gampad(Utils.java:4153)
+	at twc.Automation.ExecutableTestCases.smokeTestCases.Validate_HourlyDetails_tmpr_Custom_param(smokeTestCases.java:414)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_tmpr_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_dynght_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Marquee_dynght_Custom_param" duration-ms="395" started-at="2022-05-19T09:40:13Z" finished-at="2022-05-19T09:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_dynght_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_dynght_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Feed1_dynght_Custom_param" duration-ms="368" started-at="2022-05-19T09:40:13Z" finished-at="2022-05-19T09:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_dynght_Custom_param -->
+        <test-method status="FAIL" signature="Validate_HourlyDetails_dynght_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_HourlyDetails_dynght_Custom_param" duration-ms="387" started-at="2022-05-19T09:40:13Z" finished-at="2022-05-19T09:40:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Custom Parameter :dynght value: nl is not matched with the expected value: D]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Custom Parameter :dynght value: nl is not matched with the expected value: D
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Automation.General.Utils.validate_custom_param_val_of_gampad(Utils.java:4153)
+	at twc.Automation.ExecutableTestCases.smokeTestCases.Validate_HourlyDetails_dynght_Custom_param(smokeTestCases.java:454)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_dynght_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_st_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Marquee_st_Custom_param" duration-ms="360" started-at="2022-05-19T09:40:14Z" finished-at="2022-05-19T09:40:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_st_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_st_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Feed1_st_Custom_param" duration-ms="375" started-at="2022-05-19T09:40:14Z" finished-at="2022-05-19T09:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_st_Custom_param -->
+        <test-method status="PASS" signature="Validate_HourlyDetails_st_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_HourlyDetails_st_Custom_param" duration-ms="348" started-at="2022-05-19T09:40:15Z" finished-at="2022-05-19T09:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_st_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_mr_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Marquee_mr_Custom_param" duration-ms="219" started-at="2022-05-19T09:40:15Z" finished-at="2022-05-19T09:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_mr_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_mr_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Feed1_mr_Custom_param" duration-ms="213" started-at="2022-05-19T09:40:15Z" finished-at="2022-05-19T09:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_mr_Custom_param -->
+        <test-method status="PASS" signature="Validate_HourlyDetails_mr_Custom_param()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_HourlyDetails_mr_Custom_param" duration-ms="228" started-at="2022-05-19T09:40:15Z" finished-at="2022-05-19T09:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_mr_Custom_param -->
+        <test-method status="FAIL" signature="Validate_GMA_SDK_version()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_GMA_SDK_version" duration-ms="231" started-at="2022-05-19T09:40:16Z" finished-at="2022-05-19T09:40:16Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Custom Parameter :js value: afma-sdk-a-v221310999.212910000.1 is not matched with the expected value afma-sdk-a-v214106999.212910000.1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Custom Parameter :js value: afma-sdk-a-v221310999.212910000.1 is not matched with the expected value afma-sdk-a-v214106999.212910000.1
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Automation.General.Utils.validate_Noncustom_param_val_of_gampad(Utils.java:6641)
+	at twc.Automation.ExecutableTestCases.smokeTestCases.Validate_GMA_SDK_version(smokeTestCases.java:538)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_GMA_SDK_version -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter" duration-ms="444" started-at="2022-05-19T09:40:16Z" finished-at="2022-05-19T09:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_config_app_Call_cpId_parameter()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Criteo_SDK_config_app_Call_cpId_parameter" duration-ms="449" started-at="2022-05-19T09:40:16Z" finished-at="2022-05-19T09:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_config_app_Call_cpId_parameter -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_config_app_Call_bundleId_parameter()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Criteo_SDK_config_app_Call_bundleId_parameter" duration-ms="423" started-at="2022-05-19T09:40:17Z" finished-at="2022-05-19T09:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_config_app_Call_bundleId_parameter -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_Bidder_API_Call_Response_Code()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Criteo_SDK_Bidder_API_Call_Response_Code" duration-ms="444" started-at="2022-05-19T09:40:17Z" finished-at="2022-05-19T09:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_Bidder_API_Call_Response_Code -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_Initialization_API_Call_Response_Code()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Criteo_SDK_Initialization_API_Call_Response_Code" duration-ms="439" started-at="2022-05-19T09:40:18Z" finished-at="2022-05-19T09:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_Initialization_API_Call_Response_Code -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_csmEnabled()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_csmEnabled" duration-ms="459" started-at="2022-05-19T09:40:18Z" finished-at="2022-05-19T09:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_csmEnabled -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_liveBiddingEnabled()[pri:0, instance:twc.Automation.ExecutableTestCases.smokeTestCases@ab20d7c]" name="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_liveBiddingEnabled" duration-ms="10421" started-at="2022-05-19T09:40:18Z" finished-at="2022-05-19T09:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_liveBiddingEnabled -->
+      </class> <!-- twc.Automation.ExecutableTestCases.smokeTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

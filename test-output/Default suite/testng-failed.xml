@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="twc.Automation.ExecutableTestCases.smokeTestCases">
+        <methods>
+          <include name="Validate_HourlyDetails_ct_Custom_param"/>
+          <include name="Validate_HourlyDetails_tmpr_Custom_param"/>
+          <include name="Validate_GMA_SDK_version"/>
+          <include name="Validate_HourlyDetails_tmp_Custom_param"/>
+          <include name="Validate_HourlyDetails_dynght_Custom_param"/>
+          <include name="Validate_Feed1_ct_Custom_param"/>
+          <include name="Validate_Marquee_ct_Custom_param"/>
+          <include name="Validate_HourlyDetails_cnd_Custom_param"/>
+        </methods>
+      </class> <!-- twc.Automation.ExecutableTestCases.smokeTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
