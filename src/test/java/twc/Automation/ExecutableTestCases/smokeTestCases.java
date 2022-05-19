@@ -104,8 +104,9 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	proxy.clearCharlesSession();
 	AppiumFunctions.LaunchAppWithFullReset();
 	Thread.sleep(90000);
-	//AppFunctions.gettingApkVersion_UPSX() ;
-	AppiumFunctions.enter_requiredLocation("30124");
+          AppFunctions.gettingApkVersion_UPSX() ;
+	    	Thread.sleep(90000);
+	//AppiumFunctions.enter_requiredLocation("30124");
 
 }
 	@Test(priority = 2, enabled = true)
