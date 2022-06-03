@@ -1958,7 +1958,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 
 			        @Test(priority = 826, enabled = true)
 			        @Description("Validating 'mr' custom parameter of Hourly details call ")
-			        public void Validate_HourlyDetails_mr_Custom_param() throws Exception {
+			        public void Validate_nonRefresh_HourlyDetails_mr_Custom_param() throws Exception {
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating mr custom parameter of Hourly details call");
 			        	logStep("Validating mr custom parameter of Hourly details call ");
