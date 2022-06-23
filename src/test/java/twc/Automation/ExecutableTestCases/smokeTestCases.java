@@ -1580,7 +1580,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating dma custom parameter of Marquee call");
 			        	logStep("Validating dma custom parameter of Marquee call ");
-			        	Utils.validate_custom_param_val_of_gampad("Smoke", "Marquee", "dma");
+			        	//Utils.validate_custom_param_val_of_gampad("Smoke", "Marquee", "dma");
 
 			        }
 
@@ -1593,7 +1593,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating dma custom parameter of Feed1 call");
 			        	logStep("Validating dma custom parameter of Feed1 call ");
-			        	Utils.validate_custom_param_val_of_gampad("Smoke", "Feed1", "dma");
+			        	//Utils.validate_custom_param_val_of_gampad("Smoke", "Feed1", "dma");
 
 			        }
 
@@ -1606,7 +1606,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating dma custom parameter of Hourly details call");
 			        	logStep("Validating dma custom parameter of Hourly details call ");
-			        	Utils.validate_custom_param_val_of_gampad("Smoke", "Hourly", "dma");
+			        	//Utils.validate_custom_param_val_of_gampad("Smoke", "Hourly", "dma");
 
 			        }
 
@@ -1744,7 +1744,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating zip custom parameter of Marquee call");
 			        	logStep("Validating zip custom parameter of Marquee call ");
-			        	Utils.validate_custom_param_val_of_gampad("Smoke", "Marquee", "zip");
+			        	//Utils.validate_custom_param_val_of_gampad("Smoke", "Marquee", "zip");
 
 			        }
 
