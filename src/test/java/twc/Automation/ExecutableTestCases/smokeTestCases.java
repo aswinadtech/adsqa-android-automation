@@ -2218,7 +2218,22 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        
 			
 
-
+@Test(priority = 4000, enabled = true)
+	@Description("Verify Confiant SDK Calls")
+	public void Verify_Confiant_SDK_Calls() throws Exception {
+		System.out.println("==============================================");
+		System.out.println("****** Confiant SDK Calls Validation test started");
+		logStep("Confiant SDK Calls Validation test started");
+		/*Functions.archive_folder("Charles");
+		TestBase.waitForMilliSeconds(5000);
+		stScreen.select_Airlock_Branch("Clear");
+		stScreen.select_Airlock_UserGroup("confiant");
+		proxy.clearCharlesSession();
+		Functions.close_launchApp();
+		proxy.getXml();
+		Utils.createXMLFileForCharlesSessionFile();*/
+		//Utils.verifyConfiantSDKInitializationCalls("Smoke", "Confiant");
+	}
 
 	
 	
