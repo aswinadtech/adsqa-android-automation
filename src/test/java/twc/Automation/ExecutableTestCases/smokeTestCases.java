@@ -1991,7 +1991,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	logStep("Verify Enable Preconditions for WeatherFX API Parameters test started");
 			        	
 			        	proxy.clearCharlesSession();
-					// AppFunctions.enter_requiredLocation("30124");
+					 AppFunctions.enter_requiredLocation("30124");
 			        	AppFunctions.Kill_Launch_App();
 			        	Thread.sleep(2000);
 			        	proxy.clearCharlesSession();
@@ -2025,7 +2025,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("****** Validating wfxtg custom parameter of Hourly details call");
 			        	logStep("Validating wfxtg custom parameter of Hourly details call ");
 			        	//CharlesFunctions.createXMLFileForCharlesSessionFile();
-			        	//Utils.validate_custom_param_val_of_gampad_with_zip("Hourly", "wfxtg", "30124");
+			        	Utils.validate_custom_param_val_of_gampad_with_zip("Hourly", "wfxtg", "30124");
 
 			        }
 
@@ -2038,7 +2038,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating wfxtg custom parameter of Daily details call");
 			        	logStep("Validating wfxtg custom parameter of Daily details call ");
-			        	//Utils.validate_custom_param_val_of_gampad_with_zip("Daily(10day)", "wfxtg", "30124");
+			        	Utils.validate_custom_param_val_of_gampad_with_zip("Daily(10day)", "wfxtg", "30124");
 
 			        }
 
@@ -2051,7 +2051,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating wfxtg custom parameter of Map details call");
 			        	logStep("Validating wfxtg custom parameter of Map details call ");
-			        	//Utils.validate_custom_param_val_of_gampad_with_zip("Map", "wfxtg", "30124");
+			        	Utils.validate_custom_param_val_of_gampad_with_zip("Map", "wfxtg", "30124");
 
 			        }
 
@@ -2065,7 +2065,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("****** Validating cxtg custom parameter of Hourly details call");
 			        	logStep("Validating cxtg custom parameter of Hourly details call ");
 			        	//CharlesFunctions.createXMLFileForCharlesSessionFile();
-			        	//Utils.validate_custom_param_val_of_gampad_with_zip("Hourly", "cxtg", "30124");
+			        	Utils.validate_custom_param_val_of_gampad_with_zip("Hourly", "cxtg", "30124");
 
 			        }
 
@@ -2078,7 +2078,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating cxtg custom parameter of Daily details call");
 			        	logStep("Validating cxtg custom parameter of Daily details call ");
-			        	//Utils.validate_custom_param_val_of_gampad_with_zip("Daily(10day)", "cxtg", "30124");
+			        	Utils.validate_custom_param_val_of_gampad_with_zip("Daily(10day)", "cxtg", "30124");
 
 			        }
 
@@ -2091,7 +2091,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating cxtg custom parameter of Map details call");
 			        	logStep("Validating cxtg custom parameter of Map details call ");
-			        	//Utils.validate_custom_param_val_of_gampad_with_zip("Map", "cxtg", "30124");
+			        	Utils.validate_custom_param_val_of_gampad_with_zip("Map", "cxtg", "30124");
 
 			        }
 
@@ -2107,7 +2107,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating zcs custom parameter of Hourly details call");
 			        	logStep("Validating zcs custom parameter of Hourly details call ");
-			        	//Utils.validate_custom_param_val_of_gampad_with_zip( "Hourly", "zcs", "30124");
+			        	Utils.validate_custom_param_val_of_gampad_with_zip( "Hourly", "zcs", "30124");
 
 			        }
 
@@ -2120,7 +2120,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating zcs custom parameter of Daily details call");
 			        	logStep("Validating zcs custom parameter of Daily details call ");
-			        	//Utils.validate_custom_param_val_of_gampad_with_zip("Daily(10day)", "zcs", "30124");
+			        	Utils.validate_custom_param_val_of_gampad_with_zip("Daily(10day)", "zcs", "30124");
 
 			        }
 
@@ -2133,7 +2133,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating zcs custom parameter of Map details call");
 			        	logStep("Validating zcs custom parameter of Map details call ");
-			        //Utils.validate_custom_param_val_of_gampad_with_zip("Map", "zcs", "30124");
+			        Utils.validate_custom_param_val_of_gampad_with_zip("Map", "zcs", "30124");
 
 			        }
 
@@ -2146,7 +2146,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating hzcs custom parameter of Hourly details call");
 			        	logStep("Validating hzcs custom parameter of Hourly details call ");
-			        	//Utils.validate_custom_param_val_of_gampad_with_zip("Hourly", "hzcs", "30124");
+			        	Utils.validate_custom_param_val_of_gampad_with_zip("Hourly", "hzcs", "30124");
 
 			        }
 
@@ -2159,7 +2159,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating hzcs custom parameter of Daily details call");
 			        	logStep("Validating hzcs custom parameter of Daily details call ");
-			        	//Utils.validate_custom_param_val_of_gampad_with_zip("Daily(10day)", "hzcs", "30124");
+			        	Utils.validate_custom_param_val_of_gampad_with_zip("Daily(10day)", "hzcs", "30124");
 
 			        }
 
@@ -2172,7 +2172,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating hzcs custom parameter of Map details call");
 			        	logStep("Validating hzcs custom parameter of Map details call ");
-			        	//Utils.validate_custom_param_val_of_gampad_with_zip("Map", "hzcs", "30124");
+			        	Utils.validate_custom_param_val_of_gampad_with_zip("Map", "hzcs", "30124");
 
 			        }
 
@@ -2185,7 +2185,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating nzcs custom parameter of Hourly details call");
 			        	logStep("Validating nzcs custom parameter of Hourly details call ");
-			        	//Utils.validate_custom_param_val_of_gampad_with_zip("Hourly", "nzcs", "30124");
+			        	Utils.validate_custom_param_val_of_gampad_with_zip("Hourly", "nzcs", "30124");
 
 			        }
 
@@ -2198,7 +2198,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating nzcs custom parameter of Daily details call");
 			        	logStep("Validating nzcs custom parameter of Daily details call ");
-			        	//Utils.validate_custom_param_val_of_gampad_with_zip("Daily(10day)", "nzcs", "30124");
+			        	Utils.validate_custom_param_val_of_gampad_with_zip("Daily(10day)", "nzcs", "30124");
 
 			        }
 
@@ -2211,7 +2211,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating nzcs custom parameter of Map details call");
 			        	logStep("Validating nzcs custom parameter of Map details call ");
-			        	//Utils.validate_custom_param_val_of_gampad_with_zip( "Map", "nzcs", "30124");
+			        	Utils.validate_custom_param_val_of_gampad_with_zip( "Map", "nzcs", "30124");
 			        		
 
 			        }
