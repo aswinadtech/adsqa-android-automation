@@ -119,10 +119,10 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 		Thread.sleep(90000);
 			Thread.sleep(90000);
 		//AppiumFunctions.SwipeUp_Counter_feedcards(35);
-			CharlesFunctions.archive_folder("Charles");
-		this.proxy.getXml();
-		CharlesFunctions.createXMLFileForCharlesSessionFile();
-		Utils.verifyPubadCal("Smoke", "Marquee");
+			//CharlesFunctions.archive_folder("Charles");
+		//this.proxy.getXml();
+		//CharlesFunctions.createXMLFileForCharlesSessionFile();
+		//Utils.verifyPubadCal("Smoke", "Marquee");
 		System.out.println("================= verifying iu value for home screen marquee test case End =========================");				
 	}
 	
@@ -135,7 +135,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 		System.out.println("===========================Aleret Center page Adcal iu====================");
 		System.out.println("****** Alert Center ad test case Started");
 		logStep("****** Alert Center ad test case Started");
-		Utils.verifyPubadCal("Smoke", "MyAlerts");
+		//Utils.verifyPubadCal("Smoke", "MyAlerts");
 	}
 	
 
@@ -143,7 +143,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	@Description("Verifying feed_1 ad call on FTL")
 	public void Smoke_Test_verifying_feed_1adcall_FTL() throws Exception {
 		System.out.println("================= Verifying feed_1 ad call tescase Started =========================");
-		Utils.verifyPubadCal("Smoke", "Feed1");
+		//Utils.verifyPubadCal("Smoke", "Feed1");
 		System.out.println("================= Verifying feed_1 ad call tescase End =========================");
 	}
 	
@@ -154,7 +154,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	public void Smoke_Test_Case_Verify_Radar_Maps_deatailspage_adCall_FTL() throws Exception {
 		System.out.println(
 				"================= verifying iu value for Radar&Maps deatail card started =========================");
-		Utils.verifyPubadCal("Smoke", "Map");
+		//Utils.verifyPubadCal("Smoke", "Map");
 		System.out.println(
 				"================= verifying iu value for Radar&Maps deatail card  End =========================");
 	}
@@ -164,7 +164,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	public void Smoke_Test_CaseVerify_Today_details_page_iu_FTL() throws Exception {
 		System.out.println(
 				"================= verifying iu value for Today_details_page_iu started =========================");
-		Utils.verifyPubadCal("Smoke", "Today",false);
+		//Utils.verifyPubadCal("Smoke", "Today",false);
 		System.out.println(
 				"================= verifying iu value for Today_details_page_iu End =========================");
 	}
@@ -175,7 +175,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	public void Smoke_Test_Verify_Air_Quality_contentpage_adCall_FTL() throws Exception {
 		System.out.println(
 				"================= Verifying iu value for Air Quality content page testcase  started =========================");
-		Utils.verifyPubadCal("Smoke", "Air Quality(Content)");
+		//Utils.verifyPubadCal("Smoke", "Air Quality(Content)");
 		System.out.println(
 				"================= Verifying iu value for Air Quality content page testcase  End =========================");
 	}
@@ -188,7 +188,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 
 		System.out.println("****** Safety And Preparedness card ad test case Started");
 		logStep("****** Safety And Preparedness card ad test case Started");
-		Utils.verifyPubadCal("Smoke", "SafetyAndPreparedness");
+		//Utils.verifyPubadCal("Smoke", "SafetyAndPreparedness");
 	}
 	
 	@Test(priority = 18, enabled = true)
@@ -196,7 +196,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	public void Smoke_Test_Verify_outdoor_detailpage_adcall_FTL() throws Exception {
 		System.out
 				.println("================= Verifying outdoor detailpage_adcall iu Started =========================");
-		Utils.verifyPubadCal("Smoke", "SeasonalHub(Details)",false);
+		//Utils.verifyPubadCal("Smoke", "SeasonalHub(Details)",false);
 		System.out.println("================= Verifying outdoor detailpage adcall iu End =========================");
 	}
 	
@@ -204,7 +204,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	@Description("Verifying Running content page ad call  FTL")
 	public void Smoke_Test_Verify_health_and_activities_Running_contenPage_adcall_FTL() throws Exception {
 	System.out.println("================= Verify_health_and_activities_Running_contenPage_adcall_iu Started =========================");
-		Utils.verifyPubadCal("Smoke", "Health(goRun)",false);
+		//Utils.verifyPubadCal("Smoke", "Health(goRun)",false);
 		System.out.println("================= Verify_health_and_activities_Running_contenPage_adcall_iu End =========================");
 						
 			}
@@ -214,7 +214,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	public void Smoke_Test_Verify_health_and_activities_Bot_Beach_contenPage_adcall_FTL() throws Exception {
 		System.out.println(
 				"================= Verify_health_and_activities_Bot&beach_contenPage_adcall_iu Started =========================");
-		Utils.verifyPubadCal("Smoke", "Health(boatAndBeach)",false);
+		//Utils.verifyPubadCal("Smoke", "Health(boatAndBeach)",false);
 	
 		System.out.println(
 				"================= Verify_health_and_activities_Bot&beach_contenPage_adcall_iu End =========================");
@@ -225,7 +225,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	public void Smoke_Test_Verify_health_and_activities_coldFlu_contenPage_adcall_FTL() throws Exception {
 		System.out.println(
 				"================= Verify_health_and_activities_coldFlu_contenPage_adcall_iu Started =========================");
-		Utils.verifyPubadCal("Smoke", "Health(coldAndFlu)");
+		//Utils.verifyPubadCal("Smoke", "Health(coldAndFlu)");
 		System.out.println(
 				"================= Verify_health_and_activities_coldFlu_contenPage_adcall_iu End =========================");
 	}
@@ -235,7 +235,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	public void Smoke_Test_Verify_health_and_activities_Allergy_contenPage_adcall_FTL() throws Exception {
 		System.out.println(
 				"================= Verify_health_and_activities_Allergy_contenPage_adcall_iu Started =========================");
-		Utils.verifyPubadCal("Smoke", "allergycontentpage");
+		//Utils.verifyPubadCal("Smoke", "allergycontentpage");
 		System.out.println(
 				"================= Verify_health_and_activities_Allergy_contenPage_adcall_iu End =========================");
 	}
@@ -245,7 +245,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	public void Smoke_Test_Verify_health_and_activities_Allergy_spotlight_pos_custumparam() throws Exception {
 		System.out.println(
 				"================= Verify_health_and_activities_Allergy_spotlight_adcall_pos custumparam Started =========================");
-		Utils.validate_custom_param_val_of_gampad("Smoke", "Health(allergy_spotlight)", "pos", "app_sl");
+		//Utils.validate_custom_param_val_of_gampad("Smoke", "Health(allergy_spotlight)", "pos", "app_sl");
 		System.out.println(
 				"================= Verify_health_and_activities_Allergy_spotlight_adcall_pos custumparamEnd =========================");
 	}
@@ -269,14 +269,14 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 		System.out.println("==============================================");
 		System.out.println("===========================Alert Center sz value ====================");
 		logStep("****** Alert Center sz value test case Started");
-		Utils.validate_Noncustom_param_val_of_gampad("Smoke", "MyAlerts", "sz", "320x50");
+		//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "MyAlerts", "sz", "320x50");
 	}
     
     @Test(priority = 74, enabled = true)
 	@Description("Verifying sz value for feed_1 ad call on FTL")
 	public void Smoke_Test_verifying_sz_feed_1_adcall_FTL() throws Exception {
 		System.out.println("================= Verifying sz value feed_1 ad call tescase Started =========================");
-		Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "sz", "300x250%7C320x400");
+		//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "sz", "300x250%7C320x400");
 		System.out.println("================= Verifying sz value feed_1 ad call tescase End =========================");
 	}
     @Test(priority = 84, enabled = true)
@@ -284,7 +284,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	public void Smoke_Test_Case_Verify_sz_Radar_Maps_deatailspage_adCall_FTL() throws Exception {
 		System.out.println(
 				"================= verifying sz  value for Radar&Maps deatail card started =========================");
-		Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Map", "sz", "320x50");
+		//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Map", "sz", "320x50");
 		System.out.println(
 				"================= verifying sz value for Radar&Maps deatail card  End =========================");
 	}
@@ -294,7 +294,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	public void Smoke_Test_Verify_sz_AirQuality_contentpage_adCall_FTL() throws Exception {
 		System.out.println(
 				"================= Verifying sz value for Air Quality content page testcase  started =========================");
-		Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Air Quality(Content)", "sz", "320x50");
+		//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Air Quality(Content)", "sz", "320x50");
 		System.out.println(
 				"================= Verifying sz value for Air Quality content page testcase  End =========================");
 	}
@@ -307,23 +307,9 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	@Description("Verifying  hourly detailpage al call on FTL")
 	public void Smoke_Test_Verify_hourly_detailpage_adcall_FTL() throws Exception {
 		System.out.println("================= Verifying hourly_detailpage_adcall_iu test case  Started =========================");
-		proxy.clearCharlesSession();
-	   AppFunctions.click_hourly_element();
-	   attachScreen();
-	   Thread.sleep(10000);
-		AppFunctions.Swipe();
-		AppFunctions.Swipe();
-		AppFunctions.Swipe();
-		AppFunctions.Swipe();
-		AppFunctions.Swipe();
-		AppFunctions.Swipe();
-		Thread.sleep(10000);
-		Thread.sleep(10000);
-		Thread.sleep(90000);
-		CharlesFunctions.archive_folder("Charles");
-		this.proxy.getXml();
-	CharlesFunctions.createXMLFileForCharlesSessionFile();
-      Utils.verifyPubadCal("Smoke", "Hourly");
+		
+	   
+     // Utils.verifyPubadCal("Smoke", "Hourly");
 		
 		System.out.println("================= Verifying hourly_detailpage_adcall_iu  test case  End =========================");
 	}
@@ -333,7 +319,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 public void Smoke_Test_Verify_hourly1_detailpage_bigad_adcall_FTL() throws Exception {
 System.out.println(
 	"================= Verifying hourly1 big ad detailpage_adcall_iu  test case Started =========================");
-Utils.verifyPubadCal("Smoke", "Hourly1");
+//Utils.verifyPubadCal("Smoke", "Hourly1");
 System.out.println(
 	"================= Verifying hourly1 big ad detailpage_adcall_iu test case  End =========================");
 }
@@ -343,7 +329,7 @@ System.out.println(
 public void Smoke_Test_Verify_hourly2_detailpage_bigad_adcall_FTL() throws Exception {
 System.out.println(
 	"================= Verifying hourly2 bigad detailpage_adcall_iu test case Started =========================");
-Utils.verifyPubadCal("Smoke", "Hourly2");
+//Utils.verifyPubadCal("Smoke", "Hourly2");
 
 System.out.println(
 	"================= Verifying hourly2 bigad detailpage_adcall_iu test case End =========================");
@@ -355,7 +341,7 @@ public void Smoke_Test_Verify_hourly3__bigad_detailpage_adcall_FTL() throws Exce
 System.out.println(
 	"================= Verifying hourly3 bigad detailpage_adcall_iu test case  Started =========================");
 
-Utils.verifyPubadCal("Smoke", "Hourly3");
+//Utils.verifyPubadCal("Smoke", "Hourly3");
 
 System.out.println(
 	"================= Verifying hourly3 bigad detailpage_adcall_iu test case  End =========================");
@@ -366,8 +352,8 @@ System.out.println(
 @Description("Verifying sz value for  hourly detailpage al call on FTL")
 public void Smoke_Test_Verify_sz_hourly_detailpage_adcall_FTL() throws Exception {
 System.out.println("================= Verifying sz value for hourly detailpage adcall test case  Started =========================");
-CharlesFunctions.createXMLFileForCharlesSessionFile();
-Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "sz", "320x50");
+
+//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "sz", "320x50");
 System.out.println("================= Verifying sz value for hourly detailpage adcall test case End =========================");
 }
 	
@@ -376,7 +362,7 @@ System.out.println("================= Verifying sz value for hourly detailpage a
 public void Smoke_Test_Verify_sz_hourly1_detailpage_bigad_adcall_FTL() throws Exception {
 System.out.println(
 	"================= Verifying sz value for hourly1 big ad detailpage adcall  test case Started =========================");
-Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly1", "sz", "300x250");
+//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly1", "sz", "300x250");
 System.out.println(
 	"================= Verifying sz value for hourly1 big ad detailpage adcall  test case  End =========================");
 }
@@ -386,7 +372,7 @@ System.out.println(
 public void Smoke_Test_Verify_sz_hourly2_detailpage_bigad_adcall_FTL() throws Exception {
 System.out.println(
 	"================= Verifying sz value for hourly2 bigad detailpage_adcall test case Started =========================");
-Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly2", "sz", "300x250");
+//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly2", "sz", "300x250");
 System.out.println(
 	"================= Verifying sz value for hourly2 bigad detailpage_adcall test case End =========================");
 }
@@ -397,7 +383,7 @@ public void Smoke_Test_Verify_sz_hourly3__bigad_detailpage_adcall_FTL() throws E
 System.out.println(
 	"================= Verifying sz value for hourly3 bigad detailpage_adcall test case  Started =========================");
 
-Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly3", "sz", "300x250");
+//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly3", "sz", "300x250");
 
 System.out.println(
 	"================= Verifying sz value for hourly3 bigad detailpage_adcall test case  End =========================");
@@ -409,19 +395,9 @@ System.out.println(
 public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Exception {
 	System.out.println(
 			"================= Verifying new daily details day1 ad call tescase Started =========================");
+
 	
-	proxy.clearCharlesSession();	
-	Functions.clickdailydetails();
-	attachScreen();
-	//Functions.closeInterstailads();
-//	Functions.clickongotit();
-	Thread.sleep(15000);
-	Functions.verifyingdailydetrailsday1today7();
-	CharlesFunctions.archive_folder("Charles");
-	this.proxy.getXml();
-	CharlesFunctions.createXMLFileForCharlesSessionFile();
-	
-	Utils.verifyPubadCal("Smoke", "DailyDetails");
+	//Utils.verifyPubadCal("Smoke", "DailyDetails");
 		
 	System.out.println(
 			"=================  Verifying new daily details day1 ad call tescase  End =========================");
@@ -436,7 +412,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			 	System.out.println("==============================================");
 			 	System.out.println("****** Validating fcnd custom parameter of daily details call");
 			 	logStep("Validating fcnd custom parameter of daily details call ");
-			 	Utils.validate_custom_param_val_of_gampad("Smoke", "DailyDetails", "fcnd", "NotNull");
+			 	//Utils.validate_custom_param_val_of_gampad("Smoke", "DailyDetails", "fcnd", "NotNull");
 
 			 }
 			  
@@ -449,7 +425,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			  	System.out.println("==============================================");
 			  	System.out.println("****** Validating dt custom parameter of daily details call");
 			  	logStep("Validating dt custom parameter of daily details call ");
-			  	Utils.validate_custom_param_val_of_gampad("Smoke", "DailyDetails", "dt", "NotNull");
+			  	//Utils.validate_custom_param_val_of_gampad("Smoke", "DailyDetails", "dt", "NotNull");
 
 			  }
 
@@ -462,7 +438,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			   	System.out.println("==============================================");
 			   	System.out.println("****** Validating mnth custom parameter of daily details call");
 			   	logStep("Validating mnth custom parameter of daily details call ");
-			   	Utils.validate_custom_param_val_of_gampad("Smoke", "DailyDetails", "mnth", "NotNull");
+			   	//Utils.validate_custom_param_val_of_gampad("Smoke", "DailyDetails", "mnth", "NotNull");
 
 			   }
 
@@ -486,15 +462,8 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			     public void Smoke_Test_Verifying_newdailydetails_day2adcall_FTL() throws Exception {
 			     System.out.println(
 			     	"================= Verifying new daily details day2 ad call test case Started=========================");
-			     CharlesFunctions.archive_folder("Charles");
-			     proxy.clearCharlesSession();
-			     Functions.clickonday2();
-			     attachScreen();
-			     Thread.sleep(10000);
-			     Functions.verifyingdailydetrailsday1today7();
-			     this.proxy.getXml();
-			     CharlesFunctions.createXMLFileForCharlesSessionFile();
-			     Utils.verifyPubadCal("Smoke", "DailyDetails");
+			    
+			     //Utils.verifyPubadCal("Smoke", "DailyDetails");
 
 			     System.out.println(
 			     	"================= Verifying new daily details day2 ad call test case End =========================");
@@ -508,7 +477,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			     System.out.println(
 			     	"================= Verifying sz value for new daily details day2 ad call tescase Started =========================");
 
-			     Utils.validate_Noncustom_param_val_of_gampad("Smoke", "DailyDetails", "sz", "360x210%7C300x250");
+			    // Utils.validate_Noncustom_param_val_of_gampad("Smoke", "DailyDetails", "sz", "360x210%7C300x250");
 			     System.out.println(
 			     	"=================  Verifying sz value for new daily details day2 ad call tescase  End =========================");
 			     }
@@ -522,16 +491,8 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			     System.out.println(
 			     	"================= Verifying new daily details day3 ad call test case Started =========================");
 
-			     CharlesFunctions.archive_folder("Charles");
-			     proxy.clearCharlesSession();
-			     //Functions.finding_newDailyBidadcall_day2();
-			     Functions.clickonday3();
-			     attachScreen();
-			     Thread.sleep(10000);
-			     Functions.verifyingdailydetrailsday1today7();
-			     this.proxy.getXml();
-			     CharlesFunctions.createXMLFileForCharlesSessionFile();
-			     Utils.verifyPubadCal("Smoke", "DailyDetails");
+			     
+			   //  Utils.verifyPubadCal("Smoke", "DailyDetails");
 			     System.out.println(
 			     	"================= Verifying new daily details day3 ad call test case End =========================");
 			     }
@@ -543,7 +504,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			     public void Smoke_Test_sz_Verifying_newdailydetails_day3adcall_FTL() throws Exception {
 			     System.out.println(
 			     	"================= Verifying sz value for new daily details day3 ad call tescase Started =========================");
-              Utils.validate_Noncustom_param_val_of_gampad("Smoke", "DailyDetails", "sz", "360x210%7C300x250");
+             // Utils.validate_Noncustom_param_val_of_gampad("Smoke", "DailyDetails", "sz", "360x210%7C300x250");
 			     System.out.println(
 			     	"=================  Verifying sz value for new daily details day3 ad call tescase  End =========================");
 			     }
@@ -554,15 +515,8 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			     public void Smoke_Test_Verifying_newdailydetails_day4adcall_FTL() throws Exception {
 			     System.out.println(
 			     	"================= Verifying new daily details day4 ad call tescase Started =========================");
-			     CharlesFunctions.archive_folder("Charles");
-			     proxy.clearCharlesSession();
-			     Functions.clickonday4();
-			     Thread.sleep(10000);
-			     attachScreen();
-			     Functions.verifyingdailydetrailsday1today7();
-			     this.proxy.getXml();
-			     CharlesFunctions.createXMLFileForCharlesSessionFile();
-			     Utils.verifyPubadCal("Smoke", "DailyDetails");
+			    
+			    // Utils.verifyPubadCal("Smoke", "DailyDetails");
 
 			     System.out.println(
 			     	"================= Verifying new daily details day4 ad call tescase End =========================");
@@ -576,7 +530,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			     System.out.println(
 			     	"================= Verifying sz value for new daily details day4 ad call tescase Started =========================");
 
-			     Utils.validate_Noncustom_param_val_of_gampad("Smoke", "DailyDetails", "sz", "360x210%7C300x250");
+			   //  Utils.validate_Noncustom_param_val_of_gampad("Smoke", "DailyDetails", "sz", "360x210%7C300x250");
 			     System.out.println(
 			     	"=================  Verifying sz value for new daily details day4 ad call tescase  End =========================");
 			     }
@@ -588,15 +542,8 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			     public void Smoke_Test_Verifying_newdailydetails_day5adcall_FTL() throws Exception {
 			     System.out.println(
 			     	"================= Verifying new daily details day5 ad call tescase Started =========================");
-			     CharlesFunctions.archive_folder("Charles");
-			     proxy.clearCharlesSession();
-			     Functions.clickonday5();
-			     Thread.sleep(25000);
-			     attachScreen();
-			     Functions.verifyingdailydetrailsday1today7();
-			     this.proxy.getXml();
-			     CharlesFunctions.createXMLFileForCharlesSessionFile();
-			     Utils.verifyPubadCal("Smoke", "DailyDetails");
+			    
+			    // Utils.verifyPubadCal("Smoke", "DailyDetails");
 
 			     System.out.println(
 			     	"================= Verifying new daily details day5 ad call tescase End =========================");
@@ -610,7 +557,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			     public void Smoke_Test_sz_Verifying_newdailydetails_day5adcall_FTL() throws Exception {
 			     System.out.println(
 			     	"================= Verifying sz value for new daily details day5 ad call tescase Started =========================");
-			     Utils.validate_Noncustom_param_val_of_gampad("Smoke", "DailyDetails", "sz", "360x210%7C300x250");
+			     //Utils.validate_Noncustom_param_val_of_gampad("Smoke", "DailyDetails", "sz", "360x210%7C300x250");
 			     System.out.println(
 			     	"=================  Verifying sz value for new daily details day5 ad call tescase  End =========================");
 			     }
@@ -620,15 +567,8 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			     public void Smoke_Test_Verifying_newdailydetails_day6adcall_FTL() throws Exception {
 			     	System.out.println(
 			     			"================= Verifying new daily details day6 ad call tescase Started =========================");
-			     	CharlesFunctions.archive_folder("Charles");
-			     	proxy.clearCharlesSession();
-			     	Functions.clickonday6();
-			     	Thread.sleep(25000);
-			     	attachScreen();
-			     	Functions.verifyingdailydetrailsday1today7();
-			     	this.proxy.getXml();
-			     CharlesFunctions.createXMLFileForCharlesSessionFile();
-			     Utils.verifyPubadCal("Smoke", "DailyDetails");
+			     	
+			    // Utils.verifyPubadCal("Smoke", "DailyDetails");
 			     		
 			     	System.out.println(
 			     			"================= Verifying new daily details day6 ad call tescase End =========================");
@@ -643,7 +583,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			     	System.out.println(
 			     			"================= Verifying sz value for new daily details day6 ad call tescase Started =========================");
 
-			     	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "DailyDetails", "sz", "360x210%7C300x250");
+			     	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "DailyDetails", "sz", "360x210%7C300x250");
 			     	System.out.println(
 			     			"=================  Verifying sz value for new daily details day6 ad call tescase  End =========================");
 			     }
@@ -655,15 +595,8 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			     public void Smoke_Test_Verifying_newdailydetails_day7adcall_FTL() throws Exception {
 			     	System.out.println(
 			     			"================= Verifying new daily details day7 ad call tescase Started =========================");
-			     	CharlesFunctions.archive_folder("Charles");
-			     	proxy.clearCharlesSession();
-			     	Functions.clickonday7();
-			     	Thread.sleep(25000);
-			     	attachScreen();
-			     	Functions.verifyingdailydetrailsday1today7();
-			     	this.proxy.getXml();
-			     CharlesFunctions.createXMLFileForCharlesSessionFile();
-			     Utils.verifyPubadCal("Smoke", "DailyDetails");
+			     
+			    // Utils.verifyPubadCal("Smoke", "DailyDetails");
 			     	
 			     	System.out.println(
 			     			"================= Verifying new daily details day7 ad call tescase End =========================");
@@ -675,7 +608,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			           	System.out.println(
 			           			"================= Verifying sz value for new daily details day7 ad call tescase Started =========================");
 
-			           Utils.validate_Noncustom_param_val_of_gampad("Smoke", "DailyDetails", "sz", "360x210%7C300x250");
+			         //  Utils.validate_Noncustom_param_val_of_gampad("Smoke", "DailyDetails", "sz", "360x210%7C300x250");
 			           	System.out.println(
 			           			"=================  Verifying sz value for new daily details day7 ad call tescase  End =========================");
 			           }
@@ -686,17 +619,8 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     @Description("Verifying wfxtg trigger api call url on KillLaunch")
     public void Smoke_Test_CaseVerify_WeatherFXAPI_url_KillLaunch() throws Exception {
     	System.out.println("================= Verifying WeatherFX API url started =========================");
-    	CharlesFunctions.archive_folder("Charles");
-    	proxy.clearCharlesSession();
-    	AppFunctions.Kill_Launch_App();
-    	attachScreen();
-       AppiumFunctions.ClickonIUnderstand();
-    	Thread.sleep(25000);
-    	Thread.sleep(125000);
-    	attachScreen();
-    	this.proxy.getXml();
-    	CharlesFunctions.createXMLFileForCharlesSessionFile();
-    	Utils.verifyAPICal("Smoke", "WFXTrigger",true);
+    	
+    	//Utils.verifyAPICal("Smoke", "WFXTrigger",true);
     	System.out.println("================= Verifying WeatherFX API url End =========================");
     }
 
@@ -704,7 +628,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
      @Description("Verifying Factual location.wfxtriggers.com api call supressing")  
     public void Verifying_Factual_locationwfxtriggerscom_apiCall_supressing() throws Exception {	  
      System.out. println("=================Verifying Factual location.wfxtriggers.com api call supressing =========================" ); 
-    Utils.verifyAPICal("Smoke", "LocationWFX", false);
+   // Utils.verifyAPICal("Smoke", "LocationWFX", false);
       System.out. println("================= Verifying Factual location.wfxtriggers.com api call supressing  =========================" );
       }
 
@@ -712,7 +636,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     @Description("Verifying turbo call api url on KillLaunch")
     public void Smoke_Test_CaseVerify_turbo_url_KillLaunch() throws Exception {
     	System.out.println("================= Verifying Turbo call  API url started =========================");
-    	Utils.verifyAPICal("Smoke", "TurboApi",true);
+    	//Utils.verifyAPICal("Smoke", "TurboApi",true);
     	System.out.println("================= Verifying Turbo call API url End =========================");
     }
 
@@ -721,7 +645,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
       public void Smoke_Test__Verifying_Bcp_apicall_URL_killLaunch() throws  Exception { 
       logStep("Verifying bcp.crwdcntrl call" ); 
       System.out.println("=================Verifying  bcp.crwdcntrl call testcase started =========================");	  
-  	Utils.verifyAPICal("Smoke", "Lotame", true);
+  	//Utils.verifyAPICal("Smoke", "Lotame", true);
       System.out.println("================= Verifying  bcp.crwdcntrl call testcase End =========================" );
       
       }
@@ -738,7 +662,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     			"================= Verify amazon aax Hourly details preroll adcall Started =========================");
 
     	logStep(" Verifying preload amazon aax for  hourly details");
-    	Utils.verifyAAX_SlotId("Smoke", "Hourly");
+    //	Utils.verifyAAX_SlotId("Smoke", "Hourly");
     	System.out.println(
     			"================= Verify amazon aax Hourly details preroll adcall End =========================");
 
@@ -749,7 +673,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	public void Smoke_Test_amazon_aax_Hourly1_bigaddetails_preroll_adcall_killLaunch() throws Exception {
     		System.out.println(
     				"================= Verify amazon aax Hourly1 details big  adcall  test case Started =========================");
-    		Utils.verifyAAX_SlotId("Smoke", "Hourly1");
+    		//Utils.verifyAAX_SlotId("Smoke", "Hourly1");
     		System.out.println("================= Verify amazon aax Hourly1 big ad details  test case  End =========================");
 
     	}
@@ -761,7 +685,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	public void Smoke_Test_amazon_aax_Hourly2_bigaddetails_preroll_adcall_killLaunch() throws Exception {
     		System.out.println(
     				"================= Verifying  amazon aax Hourly2 details big  adcall  test case Started =========================");
-    		Utils.verifyAAX_SlotId("Smoke", "Hourly2");
+    		//Utils.verifyAAX_SlotId("Smoke", "Hourly2");
     		System.out.println("================= Verifying  amazon aax Hourly2  big ad details  test case  End =========================");
 
     	}
@@ -773,7 +697,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	public void Smoke_Test_amazon_aax_Hourly3_bigaddetails_preroll_adcall_killLaunch() throws Exception {
     		System.out.println(
     				"================= Verify amazon aax Hourly3 details big  ad call test case  Started =========================");
-    		Utils.verifyAAX_SlotId("Smoke", "Hourly3");
+    		//Utils.verifyAAX_SlotId("Smoke", "Hourly3");
     		System.out.println("================= Verify amazon aax Hourly3 big ad call test case End =========================");
     	}
     	  
@@ -786,7 +710,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     			"================= Verify amazon aax Maps card preroll adcall Started =========================");
 
     	logStep(" Verifying preload amazon aax for  map details");
-    	Utils.verifyAAX_SlotId("Smoke", "Map");
+    //	Utils.verifyAAX_SlotId("Smoke", "Map");
     	System.out
     			.println("================= Verify amazon aax Maps card preroll adcall End =========================");
 
@@ -798,7 +722,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     		System.out.println(
     				"================= Verify amazon aax slot  Id for feed1 prerol adcall  testcase Started =========================");
     		logStep(" Verifying amazon aax slot Id for feed1");
-    		Utils.verifyAAX_SlotId("Smoke", "Feed1");
+    		//Utils.verifyAAX_SlotId("Smoke", "Feed1");
     		System.out.println(
     				"================= Verify amazon aax slot Id for feed1 prerol adcall testcase End =========================");
 
@@ -808,7 +732,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     public void Smoke_Test_amazon_aax_preload_video_adcall() throws Exception {
     	System.out.println("================= Verify amazon aax video adcall Started =========================");
     	logStep(" Verifying preload amazon aax for  video details");
-    	Utils.verifyAAX_SlotId("Smoke", "PreRollVideo");
+    	//Utils.verifyAAX_SlotId("Smoke", "PreRollVideo");
     	System.out.println("================= Verify amazon aax video  adcall End =========================");
     }
 
@@ -819,7 +743,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println(
     			"================= Verify amazon aax Daily details  preroll adcall Started =========================");
     	logStep(" Verifying preload amazon aax for  daily details");
-    	Utils.verifyAAX_SlotId("Smoke", "DailyDetails");
+    	//Utils.verifyAAX_SlotId("Smoke", "DailyDetails");
     	System.out.println(
     			"================= Verify amazon aax Daily details preroll adcall End =========================");
     }
@@ -831,7 +755,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating 'sdkVersion' parameter of Criteo SDK config app call");
 			        	logStep("****** Validating 'sdkVersion' parameter of Criteo SDK config app call");
-			        Utils.validate_Criteo_SDK_config_app_call_parameter("Criteo", "sdkVersion", "4.6.1");
+			       // Utils.validate_Criteo_SDK_config_app_call_parameter("Criteo", "sdkVersion", "4.6.1");
 
 			        }
 
@@ -842,7 +766,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating 'cpId' parameter of Criteo SDK config app call");
 			        	logStep("****** Validating 'cpId' parameter of Criteo SDK config app call");
-			        	Utils.validate_Criteo_SDK_config_app_call_parameter("Criteo", "cpId", "B-051673");
+			        	//Utils.validate_Criteo_SDK_config_app_call_parameter("Criteo", "cpId", "B-051673");
 
 			        }
 			        @Test(priority = 378, enabled = true)
@@ -851,7 +775,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating 'bundleId' parameter of Criteo SDK config app call");
 			        	logStep("****** Validating 'bundleId' parameter of Criteo SDK config app call");
-			        	Utils.validate_Criteo_SDK_config_app_call_parameter("Criteo", "bundleId", "com.weather.Weather");
+			        	//Utils.validate_Criteo_SDK_config_app_call_parameter("Criteo", "bundleId", "com.weather.Weather");
 
 			        }
 
@@ -864,7 +788,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating Criteo Bidder API (invapp v2) Call Response Code");
 			        	logStep("****** Validating Criteo Bidder API (invapp v2) Call Response Code");
-			        Utils.verifyCriteo_inapp_v2_Call_ReponseStatusCode("Smoke", "Criteo", "status","200");
+			      //  Utils.verifyCriteo_inapp_v2_Call_ReponseStatusCode("Smoke", "Criteo", "status","200");
 			        }
 
 
@@ -877,7 +801,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating Criteo Initialization API (config app) Call Response Code");
 			        	logStep("****** Validating Criteo Initialization API (config app) Call Response Code");
-			        	Utils.verifyCriteo_config_app_Call_ReponseStatusCode("Smoke", "Criteo", "status","200");
+			        	//Utils.verifyCriteo_config_app_Call_ReponseStatusCode("Smoke", "Criteo", "status","200");
 			        }
 
 
@@ -892,7 +816,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println(
 			        			"****** Validating csmEnabled parameter value in Criteo Initialization API (config app) Call Response");
 			        	logStep("****** Validating csmEnabled parameter value in Criteo Initialization API (config app) Call Response");
-			        	Utils.validate_Criteo_SDK_config_app_call_response_parameter("Smoke", "Criteo", "csmEnabled","true");
+			        	//Utils.validate_Criteo_SDK_config_app_call_response_parameter("Smoke", "Criteo", "csmEnabled","true");
 			        }
 
 			        /*
@@ -906,7 +830,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println(
 			        			"****** Validating liveBiddingEnabled parameter value in Criteo Initialization API (config app) Call Response");
 			        logStep("****** Validating liveBiddingEnabled parameter value in Criteo Initialization API (config app) Call Response");
-			        Utils.validate_Criteo_SDK_config_app_call_response_parameter("Smoke", "Criteo", "liveBiddingEnabled","false");
+			        //Utils.validate_Criteo_SDK_config_app_call_response_parameter("Smoke", "Criteo", "liveBiddingEnabled","false");
 			        Thread.sleep(10000);
 			        }
        
@@ -919,14 +843,8 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     public void Validate_PreRollVideo_cmsid_Custom_param() throws Exception {
     System.out.println("==============================================");
     System.out.println("****** Validating cmsid custom parameter of Video call");
-    logStep("Validating cmsid custom parameter of Video call ");
-    proxy.clearCharlesSession();     
-    AppiumFunctions.clickOnVideoElementt() ;
-    Thread.sleep(80000);
-	CharlesFunctions.archive_folder("Charles");
-    this.proxy.getXml();
-    CharlesFunctions.createXMLFileForCharlesSessionFile();
-    Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "cmsid", "NotNull");
+   
+   // Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "cmsid", "NotNull");
 
     }
 
@@ -939,7 +857,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     System.out.println("==============================================");
     System.out.println("****** Validating ttid custom parameter of Video call");
     logStep("Validating ttid custom parameter of Video call ");
-    Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "ttid", "NotNull");
+   // Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "ttid", "NotNull");
 
     }
 
@@ -952,7 +870,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     System.out.println("==============================================");
     System.out.println("****** Validating lnid custom parameter of Video call");
     logStep("Validating lnid custom parameter of Video call ");
-    Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "lnid",  "NotNull");
+    //Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "lnid",  "NotNull");
 
     }
 
@@ -965,7 +883,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     System.out.println("==============================================");
     System.out.println("****** Validating vid custom parameter of Video call");
     logStep("Validating vid custom parameter of Video call ");
-    Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "vid",  "NotNull");
+  //  Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "vid",  "NotNull");
 
     }
 
@@ -979,7 +897,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     System.out.println("==============================================");
     System.out.println("****** Validating plist custom parameter of Video call");
     logStep("Validating plist custom parameter of Video call ");
-    Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "plist", "NotNull");
+   // Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "plist", "NotNull");
 
     }
 
@@ -992,7 +910,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     System.out.println("==============================================");
     System.out.println("****** Validating description url of Video call");
     logStep("Validating description url of Video call ");
-    Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "description_url", "NotNull");
+   // Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "description_url", "NotNull");
 
     }
 
@@ -1006,7 +924,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     System.out.println("==============================================");
     System.out.println("****** Validating content url of Video call");
     logStep("Validating content url of Video call ");
-    Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "content_url", "NotNull");
+  //  Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "content_url", "NotNull");
 
     }
 
@@ -1021,8 +939,8 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     System.out.println("****** Validating Google Interactive Media Ads SDK version i.e. 'js' parameter of Preroll video call");
     logStep("Validating Google Interactive Media Ads SDK version i.e. 'js' parameter of Preroll video call");
 
-    Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "js", properties.getProperty("IMASDKVersion"));
-    CharlesFunctions.archive_folder("Charles");
+   // Utils.validate_Noncustom_param_val_of_gampad("Smoke", "PreRollVideo", "js", properties.getProperty("IMASDKVersion"));
+    //CharlesFunctions.archive_folder("Charles");
 
     }
     
@@ -1038,16 +956,8 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating plat custom parameter of Marquee call");
     	logStep("Validating plat custom parameter of Marquee call ");
-    	proxy.clearCharlesSession();
-       	AppFunctions.Kill_Launch_App();
-    	Thread.sleep(30000);
-    	Thread.sleep(100000);
-            AppiumFunctions.SwipeUp_Counter(5);
-     	   AppFunctions.click_hourly_element();
-            Thread.sleep(30000);
-            this.proxy.getXml();	
-    	CharlesFunctions.createXMLFileForCharlesSessionFile();
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "plat", "wx_droid_phone");
+    	
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "plat", "wx_droid_phone");
 
     }
 
@@ -1060,7 +970,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating plat custom parameter of Feed1 call");
     	logStep("Validating plat custom parameter of Feed1 call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "plat", "wx_droid_phone");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "plat", "wx_droid_phone");
 
     }
 
@@ -1073,7 +983,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating plat custom parameter of Hourly details call");
     	logStep("Validating plat custom parameter of Hourly details call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "plat", "wx_droid_phone");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "plat", "wx_droid_phone");
 
     }
 
@@ -1089,7 +999,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("****** Validating pos custom parameter of Marquee call");
     	logStep("Validating pos custom parameter of Marquee call ");
     	CharlesFunctions.createXMLFileForCharlesSessionFile();
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "pos", "top300");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "pos", "top300");
 
     }
 
@@ -1102,7 +1012,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating pos custom parameter of Feed1 call");
     	logStep("Validating pos custom parameter of Feed1 call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "pos", "top300");
+    //	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "pos", "top300");
 
     }
 
@@ -1115,7 +1025,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating pos custom parameter of Hourly details call");
     	logStep("Validating pos custom parameter of Hourly details call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "pos", "top300");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "pos", "top300");
 
     }
 
@@ -1131,7 +1041,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("****** Validating tile custom parameter of Marquee call");
     	logStep("Validating tile custom parameter of Marquee call ");
     	CharlesFunctions.createXMLFileForCharlesSessionFile();
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "tile", "1");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "tile", "1");
 
     }
 
@@ -1144,7 +1054,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating tile custom parameter of Feed1 call");
     	logStep("Validating tile custom parameter of Feed1 call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "tile", "1");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "tile", "1");
 
     }
 
@@ -1157,7 +1067,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating tile custom parameter of Hourly details call");
     	logStep("Validating tile custom parameter of Hourly details call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "tile", "1");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "tile", "1");
 
     }
 
@@ -1173,7 +1083,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating sod custom parameter of HomeScreen marqueeay call");
     	logStep("Validating sod custom parameter of HomeScreen marquee call");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "sod", "yes");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "sod", "yes");
     }
 
     /*
@@ -1185,7 +1095,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating sod custom parameter of Feed1 call");
     	logStep("Validating sod custom parameter of Feed1 call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "sod", "yes");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "sod", "yes");
 
     }
 
@@ -1198,7 +1108,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating sod custom parameter of Hourly Details call");
     	logStep("Validating sod custom parameter of Hourly Details call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "sod", "yes");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "sod", "yes");
 
     }
 
@@ -1212,7 +1122,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating lang custom parameter of Marquee call");
     	logStep("Validating lang custom parameter of Marquee call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "lang", "en");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "lang", "en");
 
     }
 
@@ -1225,7 +1135,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating lang custom parameter of Feed1 call");
     	logStep("Validating lang custom parameter of Feed1 call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "lang", "en");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "lang", "en");
 
     }
 
@@ -1238,7 +1148,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating lang custom parameter of Hourly details call");
     	logStep("Validating lang custom parameter of Hourly details call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "lang", "en");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "lang", "en");
 
     }
 
@@ -1254,7 +1164,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating tf custom parameter of Hourly details call");
     	logStep("Validating tf custom parameter of Hourly details call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "tf", "hourly");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "tf", "hourly");
 
     }
 
@@ -1269,7 +1179,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("****** Validating adid custom parameter of Marquee call");
     	logStep("Validating adid custom parameter of Marquee call ");
 
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "adid", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "adid", "NotNull");
 
     }
 
@@ -1283,7 +1193,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating adid custom parameter of Feed1 call");
     	logStep("Validating adid custom parameter of Feed1 call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "adid", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "adid", "NotNull");
 
     }
 
@@ -1296,7 +1206,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating adid custom parameter of Hourly details call");
     	logStep("Validating adid custom parameter of Hourly details call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "adid", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "adid", "NotNull");
 
     }
 
@@ -1312,7 +1222,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("****** Validating aid custom parameter of Marquee call");
     	logStep("Validating aid custom parameter of Marquee call ");
 
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "aid", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "aid", "NotNull");
 
     }
 
@@ -1326,7 +1236,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating adid custom parameter of Feed1 call");
     	logStep("Validating adid custom parameter of Feed1 call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "aid", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "aid", "NotNull");
 
     }
 
@@ -1339,7 +1249,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating adid custom parameter of Hourly details call");
     	logStep("Validating adid custom parameter of Hourly details call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "aid", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "aid", "NotNull");
 
     }
 
@@ -1356,7 +1266,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("****** Validating ltv custom parameter of Marquee call");
     	logStep("Validating ltv custom parameter of Marquee call ");
 
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "ltv", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "ltv", "NotNull");
 
     }
 
@@ -1370,7 +1280,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating ltv custom parameter of Feed1 call");
     	logStep("Validating ltv custom parameter of Feed1 call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "ltv", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "ltv", "NotNull");
 
     }
 
@@ -1383,7 +1293,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating ltv custom parameter of Hourly details call");
     	logStep("Validating ltv custom parameter of Hourly details call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "ltv", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "ltv", "NotNull");
 
     }
 
@@ -1399,7 +1309,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("****** Validating ord custom parameter of Marquee call");
     	logStep("Validating ord custom parameter of Marquee call ");
 
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "ord", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "ord", "NotNull");
 
     }
 
@@ -1413,7 +1323,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating ord custom parameter of Feed1 call");
     	logStep("Validating ord custom parameter of Feed1 call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "ord", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "ord", "NotNull");
 
     }
 
@@ -1426,7 +1336,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating ord custom parameter of Hourly details call");
     	logStep("Validating ord custom parameter of Hourly details call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "ord", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "ord", "NotNull");
 
     }
 
@@ -1440,7 +1350,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("****** Validating ver custom parameter of Marquee call");
     	logStep("Validating ver custom parameter of Marquee call ");
 
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "ver", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "ver", "NotNull");
 
     }
 
@@ -1454,7 +1364,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating ver custom parameter of Feed1 call");
     	logStep("Validating ver custom parameter of Feed1 call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "ver", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "ver", "NotNull");
 
     }
 
@@ -1467,7 +1377,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating ver custom parameter of Hourly details call");
     	logStep("Validating ver custom parameter of Hourly details call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "ver", "NotNull");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "ver", "NotNull");
 
     }
 
@@ -1482,7 +1392,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("****** Validating slotName custom parameter of Marquee call");
     	logStep("Validating slotName custom parameter of Marquee call ");
 
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "slotName", "weather.next_gen_im");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "slotName", "weather.next_gen_im");
 
     }
 
@@ -1494,7 +1404,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating slotName custom parameter of Feed1 call");
     	logStep("Validating slotName custom parameter of Feed1 call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "slotName", "weather.feed2");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "slotName", "weather.feed2");
 
     }
 
@@ -1507,7 +1417,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating slotName custom parameter of slotName details call");
     	logStep("Validating slotName custom parameter of Hourly details call ");
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "slotName", "weather.hourly");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "slotName", "weather.hourly");
 
     }
 
@@ -1521,7 +1431,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("****** Validating im custom parameter of Marquee call");
     	logStep("Validating im custom parameter of Marquee call ");
 
-    	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "im", "y");
+    	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "im", "y");
 
 
     }
@@ -1940,7 +1850,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("****** Validating mr custom parameter of Marquee call");
 			        	logStep("Validating mr custom parameter of Marquee call ");
 
-			        	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "mr", "0");
+			        	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "mr", "0");
 
 			        }
 
@@ -1951,7 +1861,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating mr custom parameter of Feed1 call");
 			        	logStep("Validating mr custom parameter of Feed1 call ");
-			        	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "mr", "0");
+			        	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Feed1", "mr", "0");
 
 			        }
 
@@ -1962,7 +1872,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating mr custom parameter of Hourly details call");
 			        	logStep("Validating mr custom parameter of Hourly details call ");
-			        	Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "mr", "0");
+			        	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Hourly", "mr", "0");
 			        	
 
 			        }
@@ -1990,26 +1900,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("****** Verify Enable Preconditions for WeatherFX API Parameters test started");
 			        	logStep("Verify Enable Preconditions for WeatherFX API Parameters test started");
 			        	
-			        	proxy.clearCharlesSession();
-					// AppFunctions.enter_requiredLocation("30124");
-			        	AppFunctions.Kill_Launch_App();
-			        	Thread.sleep(2000);
-			        	proxy.clearCharlesSession();
-		      	AppFunctions.Kill_Launch_App();
-			        	Thread.sleep(50000);
-			        	// navigate to Hourly tab
-			        	AppFunctions.click_hourly_element();
-			        	Thread.sleep(2000);
-			        	// navigate to Daily tab
-			        	Functions.clickdailydetails();
-			        	Thread.sleep(2000);
-			        	// navigate to Radar tab
-			        	AppiumFunctions.clickOnMaps();
-			        	Thread.sleep(5000);
-			        	CharlesFunctions.archive_folder("Charles");
-			        	Thread.sleep(5000);
-			        	proxy.getXml();
-			        	CharlesFunctions.createXMLFileForCharlesSessionFile();
+			        	
 
 			        }
 
