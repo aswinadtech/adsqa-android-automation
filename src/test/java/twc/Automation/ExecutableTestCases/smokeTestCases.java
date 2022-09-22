@@ -94,19 +94,7 @@ public class smokeTestCases extends  TwcAndroidBaseTest {
 	
 	@BeforeClass(alwaysRun = true)
     public void beforeClass() throws Exception {	
-	this.configFile = this.charlesGeneralConfigFile(CONFIG_FILE_PATH);
-	proxy = new CharlesProxy("localhost", 8333, CONFIG_FILE_PATH);
-	proxy.startCharlesProxyWithUI();
-	proxy.disableRewriting();
-    proxy.stopRecording();
-	proxy.disableMapLocal();
-	proxy.startRecording();
-	proxy.clearCharlesSession();
-	AppiumFunctions.LaunchAppWithFullReset();
-	Thread.sleep(90000);
-          AppFunctions.gettingApkVersion_UPSX() ;
-	    	Thread.sleep(90000);
-	//AppiumFunctions.enter_requiredLocation("30124");
+	
 
 }
 	@Test(priority = 2, enabled = true)
@@ -998,7 +986,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating pos custom parameter of Marquee call");
     	logStep("Validating pos custom parameter of Marquee call ");
-    	CharlesFunctions.createXMLFileForCharlesSessionFile();
+    	
     	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "pos", "top300");
 
     }
@@ -1040,7 +1028,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
     	System.out.println("==============================================");
     	System.out.println("****** Validating tile custom parameter of Marquee call");
     	logStep("Validating tile custom parameter of Marquee call ");
-    	CharlesFunctions.createXMLFileForCharlesSessionFile();
+    	
     	//Utils.validate_Noncustom_param_val_of_gampad("Smoke", "Marquee", "tile", "1");
 
     }
@@ -1446,7 +1434,7 @@ public void Smoke_Test_Verifying_newdailydetails_day1adcall_FTL() throws Excepti
 			        	System.out.println("==============================================");
 			        	System.out.println("****** Validating cnd custom parameter of Marquee call");
 			        	logStep("Validating cnd custom parameter of Marquee call ");
-			        	CharlesFunctions.createXMLFileForCharlesSessionFile();
+			        	
 			        	//Utils.validate_custom_param_val_of_gampad("Smoke", "Marquee", "cnd");
 
 			        }
